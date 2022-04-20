@@ -40,5 +40,5 @@
 }
 
 .ct-button {
-  @apply py-4 px-6 text-sm font-semibold cursor-pointer hover:bg-opacity-90  text-center;
+  @apply py-4 px-6 text-sm font-semibold cursor-pointer hover:bg-opacity-90 uppercase text-center inline-block;
 }

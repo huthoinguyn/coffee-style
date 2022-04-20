@@ -5,6 +5,9 @@ module.exports = {
       fontFamily: {
         Karla: ["Karla", "sans-serif"],
       },
+      screens: {
+        xs: "480px"
+      },
       colors: {
         coffee: {
           50: "#E8D6D0",

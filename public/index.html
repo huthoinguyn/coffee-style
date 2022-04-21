@@ -12,7 +12,7 @@
 
 <body>
   <div id="root">
-    <div class="content-wrapper font-Karla max-w-screen-2xl text-base mx-auto px-8">
+    <div class="content-wrapper font-Karla max-w-screen-2xl text-base mx-auto px-8v overflow-x-hidden">
       <header class="p-3 lg:p-6 mx-auto">
         <nav class="flex flex-row justify-between items-center relative">
           <div class="logo basis-2/6 text-center font-semibold cursor-pointer">
@@ -371,20 +371,95 @@
             <div class="ct-magazine-post basis-1/2 pl-8 xl:pl-14 text-center md:text-left mx-auto md:mx-0">
               <div class="tracking-widest uppercase text-gray-500 font-medium text-xs">PREMIUM OFFER</div>
               <div class="text-4xl mb-4">Get our Coffee Magazine</div>
-              <div class="text-gray-500 leading-7 mb-4">The most versatile furniture system ever created. Designed to fit your life.</div>
-              <div class="ct-button bg-gray-900 text-white">Start Shopping</div>
+              <div class="text-gray-500 leading-7 mb-4">The most versatile furniture system ever created. Designed to
+                fit your life.</div>
+              <div class="ct-button bg-gray-900 text-white inline-block">Start Shopping</div>
             </div>
           </div>
         </div>
         <!--End coffee-magazine-->
-        <div class="ct-parallax-section h-[400px] w-[100vw] relative left-[calc(-50vw_+_50%)] mb-24 bg-fixed bg-[url('./img/parallax-image.jpg')] bg-cover bg-no-repeat bg-center"></div>
+        <div
+          class="ct-parallax-section h-[400px] w-[100vw] relative left-[calc(-50vw_+_50%)] mb-24 bg-fixed bg-[url('./img/parallax-image.jpg')] bg-cover bg-no-repeat bg-center">
+        </div>
         <div class="ct-subheadline">
           <div class="ct-subheadline-deco-line "></div>
           <div class="ct-subheadline-label ">BEHIND THE MUGS, LIFESTYLE STORIES</div>
           <div class="ct-subheadline-deco-line "></div>
         </div>
-        <div class="lifestyle-story">
-          lifestyle-story
+        <div class="lifestyle-story w-[95%] xl:w-[65%] mx-auto mb-24">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-4">
+            <div class="ct-story-lifestyle-card ">
+              <div class="h-[300px] bg-[url('./img/lifestyle-story-01.jpg')] bg-cover bg-no-repeat bg-center">
+                <a href="#">
+                  <div
+                    class="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-400 relative group">
+                    <div
+                      class="ct-button absolute bg-white text-gray-900 w-11/12 tracking-wider bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn">
+                      Read the full Story</div>
+                  </div>
+                </a>
+              </div>
+              <div class="text-center md:text-left my-6">
+                <a href="#">
+                  <div class="text-xl mb-3 hover:text-coffee-400">Health Check: why do I get a headache when I
+                    haven&apos;t had my coffee?</div>
+                </a>
+                <div class="text-gray-500 leading-7 mb-3">
+                  It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                </div>
+                <div class="text-gray-500 leading-7 uppercase text-[13px]] tracking-widest font-medium">
+                  April 23, 2022
+                </div>
+              </div>
+            </div>
+            <div class="ct-story-lifestyle-card ">
+              <div class="h-[300px] bg-[url('./img/lifestyle-story-02.jpg')] bg-cover bg-no-repeat bg-center">
+                <a href="#">
+                  <div
+                    class="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-400 relative group">
+                    <div
+                      class="ct-button absolute bg-white text-gray-900 w-11/12 tracking-wider bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn">
+                      Read the full Story</div>
+                  </div>
+                </a>
+              </div>
+              <div class="text-center md:text-left my-6">
+                <a href="#">
+                  <div class="text-xl mb-3 hover:text-coffee-400">How long does a cup of coffee keep you awake?</div>
+                </a>
+                <div class="text-gray-500 leading-7 mb-3">
+                  It is a paradisematic country, in which roasted parts. Vel qui et ad voluptatem.
+                </div>
+                <div class="text-gray-500 leading-7 uppercase text-[13px]] tracking-widest font-medium">
+                  April 23, 2022
+                </div>
+              </div>
+            </div>
+            <div class="ct-story-lifestyle-card ">
+              <div class="h-[300px] bg-[url('./img/lifestyle-story-03.jpg')] bg-cover bg-no-repeat bg-center">
+                <a href="#">
+                  <div
+                    class="w-full h-full hover:bg-gray-900 hover:bg-opacity-10 hover:transition-all hover:ease-in-out hover:duration-400 relative group">
+                    <div
+                      class="ct-button absolute bg-white text-gray-900 w-11/12 tracking-wider bottom-4 left-1/2 -translate-x-1/2 hidden group-hover:block group-hover:animate-fadeIn">
+                      Read the full Story</div>
+                  </div>
+                </a>
+              </div>
+              <div class="text-center md:text-left my-6">
+                <a href="#">
+                  <div class="text-xl mb-3 hover:text-coffee-400">Recent research suggests that heavy coffee drinkers
+                    may reap health benefits.</div>
+                </a>
+                <div class="text-gray-500 leading-7 mb-3">
+                  It is a paradisematic country, in which roasted parts of sentences fly into your mouth.
+                </div>
+                <div class="text-gray-500 leading-7 uppercase text-[13px]] tracking-widest font-medium">
+                  April 23, 2022
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <!--End lifestyle-story-->
         <div class="ct-subheadline">
@@ -392,7 +467,7 @@
           <div class="ct-subheadline-label ">SIGN UP AND GET FREE COFFEE BAGS</div>
           <div class="ct-subheadline-deco-line "></div>
         </div>
-        <div class="subcribe-us">
+        <div class="subcribe-us ">
           subcribe-us
         </div>
         <!--End subcribe-us-->
